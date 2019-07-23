@@ -1,0 +1,33 @@
+.note {
+  // min-height: 10vh;
+  // max-height: 100px;
+  background-color: white;
+  margin-top: 20px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  display: flex;
+  // justify-content: flex-start;
+  flex-direction: column;
+  section{
+    text-overflow: clip;
+    height: 50px;
+    width: 100%
+  }
+  footer {
+    // align-self: flex-end;
+    div {
+      &:nth-child(1) {
+        float: left;
+      }
+      &:nth-child(2) {
+        float: right;
+      }
+    }
+    // .attachment {
+    //   float: left;
+    // }
+    // .initials {
+    //   float: right;
+    // }
+  }
+}

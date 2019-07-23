@@ -1,3 +1,18 @@
+Places which took more than 5 mins
+1. Loading a local json file. Reason - the way fetch vs import works when trying to load a local json file. If the file is moved to public directory, we can easily use MDN fetch. The Problem also pertains to when running a webpack server, the server returns HTML document when trying to fetch the json file.
+2. Styling `ul` and `li` items - there is natual padding with ul items, so `padding: 0`
+3. There could be large text inside a note. So need to handle it with overflow: none;
+4.
+
+To-do
+1. Build a giant object
+2. break down API needs
+  a. Get logged in user
+3. how does other user see changes?
+  a. long polling or web sockets
+  Q. how do websockets work?
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
